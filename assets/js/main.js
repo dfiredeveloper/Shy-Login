@@ -41,7 +41,7 @@ function getCoord(e) {
 	}
 	
 	var eyeLCoords = {x: svgCoords.x + 84, y: svgCoords.y + 76};
-	var eyeRCoords = {x: svgCoords.x + 113, y: svgCoords.y + 76};
+	var eyeRCoords = {x: svgCoords.x + 113, y: svgCoords.y + 76};  
 	var noseCoords = {x: svgCoords.x + 97, y: svgCoords.y + 81};
 	var mouthCoords = {x: svgCoords.x + 100, y: svgCoords.y + 100};
 	var eyeLAngle = getAngle(eyeLCoords.x, eyeLCoords.y, emailCoords.x + caretCoords.x, emailCoords.y + 25);
